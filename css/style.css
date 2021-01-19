@@ -1,0 +1,363 @@
+.logo{
+    height: 62px;
+    width: 122px;
+}
+.bs-example{
+    margin: 20px;
+}
+.navigation{
+    /* background-color: rgb(255, 94, 234); */
+    box-shadow: 10px 10px 5px grey;
+}
+.mar{
+  margin-top: 92px;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  
+  /* .container .btn:hover{
+  width: 300px;
+  height: 50px;
+  }
+  .container .btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  } */
+
+  .container1 {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .container1 .btn1 {
+    position: absolute;
+    top: -200px;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition: width 2s, height 4s;
+  }
+  .container1 .btn1:hover{
+    width: 300px;
+    height: 50px;
+    }
+  .container1 .btn1:hover {
+    background-color:black;
+    color: white;
+  }
+
+
+
+
+  .card1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.card img{
+    height: 222px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* height: 422px; */
+}
+
+.step{
+     /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    background-color: white;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 black;
+
+} 
+.gif{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+* {
+    box-sizing: border-box;
+  }
+
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Style the counter cards */
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+   
+  }
+  .container2 {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    
+  }
+  .container2 img {vertical-align: middle;}
+  .container2 .content2 {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  .column2 {
+    float: left;
+    width: 35%;
+    padding: 0 10px;
+  }
+  /* Remove extra left and right margins, due to padding */
+  
+  
+  /* Clear floats after the columns */
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  form { 
+    margin: 0 auto; 
+    width: 600px; 
+} 
+
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column2 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+ /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+  }
+}
+
+
+/* for desktop */
+@media only screen and (min-width: 769px) {  
+  .hello img{
+    height: 522px;
+    width: 90%;
+  }
+
+  .container .btn {
+    position: absolute;
+    top: -200px;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    /* transition: width 2s, height 4s; */
+  }
+  .container .btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  .trans{
+    position: absolute;
+    top: -150px;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 16px;
+    /* padding: 12px 24px; */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+}
+
+.trans1{
+  position: absolute;
+  top: -150px;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background: rgb(0, 0, 0); /* Fallback color */
+background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 16px;
+  /* padding: 12px 24px; */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  width: 80%;
+}
+
+.row2 {
+  /* margin: 0 -5px; */
+
+  display: flex;
+justify-content: center;
+flex-direction: row;
+margin-top: 32px;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+.card2 img{
+  height: 195px;
+}
+}
+
+/* for mobile */
+
+@media only screen and (max-width: 600px) {
+  .hello img{
+    height: 322px;
+    width: 90%;
+    /* width: 80%; */
+  margin: 0 auto;
+  }
+  .container .btn {
+    position: absolute;
+    top: -140px;
+    right: -32px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition: width 2s, height 4s;
+  }
+
+  .container1 .btn1 {
+    position: absolute;
+    top: -140px;
+    left: 102px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition: width 2s, height 4s;
+  }
+
+  .trans{
+    position: absolute;
+    top: -80px;
+    right: -105px;
+    width: 78%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 16px;
+    /* padding: 12px 24px; */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.trans1{
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  width: 60%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background: rgb(0, 0, 0); /* Fallback color */
+background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 16px;
+  /* padding: 12px 24px; */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  width: 80%;
+}
+.form{
+  align-items: center;
+  vertical-align: middle;
+}
+.form input{
+  width: 240px;
+}
+.form .map{
+  height: 522px;
+  width: 310px;
+}
+.map1{
+  height: 322px;
+  width: 300px;
+}
+.out{
+  position: absolute;
+  bottom: -292px;
+}
+.vertical-center {
+  width: 80%;
+  margin: 12px 8px;
+  /* padding: 20px; */
+}
+.card2 img{
+  height: 100px;
+}
+}
+/* style="width: 90%; height: 522px;" */

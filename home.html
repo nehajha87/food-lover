@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>Welcome to my site</title>
+</head>
+<script>
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+</script>
+<body>
+<!-- popup -->
+
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Welcome to Mysite <img src="img/hii.gif" style="height: 72px;"></h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <p style="text-align: center;">Have a Nice day  &#128519;</p>
+                </div>
+            </div>
+        </div>
+
+
+
+    <!-- navigation bar -->
+    <div class="bs-example">
+        <nav class="navbar fixed-top navbar-expand-md navbar-light  navigation"
+            style="background-color: rgba(236, 236, 236, 0.973);">
+            <img src="img/logo.png" class="logo">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav tab">
+                    <div class="nav-item dropdown"> 
+                        <a href="home.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Food lover<i class='fas fa-pizza-slice'></i></a>
+                        <div class="dropdown-menu">
+                            <a href="https://www.zomato.com/ncr" class="dropdown-item">SubMenu-1</a>
+                            <a href="https://www.swiggy.com/" class="dropdown-item">SubMenu-2</a>
+                            <a href="https://www.foodpanda.com/" class="dropdown-item">SubMenu-3</a>
+                            <a href="https://www.ubereats.com/" class="dropdown-item">SubMenu-4</a>
+                        </div>
+                    </div>
+                    <a href="home.html" class="nav-item nav-link active">Home<i class="fa fa-home"></i></a>
+                    <a href="css/about.html" class="nav-item nav-link">About Us <i class="fa fa-bars"></i></a>
+                    <a href="css/contact.html" class="nav-item nav-link">Contact Us <i class="fa fa-user"></i></a>
+                </div>
+            </div>
+        </nav>
+      </div>
+
+    <!-- Carousel images -->
+
+    <div id="carouselExampleIndicators" class="carousel slide mar" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active hello">
+                <img src="img/food1.jpg" class="d-block center" >
+                <div class="container">
+                    <button class="btn">Order Now</button>
+                    <p class="trans">What are you waiting for, order your food online.Get Amazing discounts hurry up!!
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item hello">
+                <img src="img/food2.jpg" class="d-block center">
+                <div class="container">
+                    <button class="btn">Order Now</button>
+                    <p class="trans">What are you waiting for, order your food online.Get Amazing discounts hurry up!!
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item hello">
+                <img src="img/food3.jpg" class="d-block center">
+                <div class="container1">
+                    <button class="btn1">Order Now</button>
+                    <p class="trans1">What are you waiting for, order your food online.Get Amazing discounts hurry up!!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Services -->
+    <h2 style="text-align: center;">Our Services</h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 card1">
+        <!-- <div class="row-cols-5 card1"> -->
+        <div class="col mb-4">
+            <div class="card">
+                <img src="img/zomato.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Zomato</h5>
+                    <p class="card-text">Zomato is an Indian restaurant aggregator and food delivery app.Zomato provides
+                        information, menus and user-reviews of restaurants as well as food delivery options from partner
+                        restaurants in select cities. <b>ORDER YOUR FOOD <a href="https://www.zomato.com/ncr">
+                                HERE</a> </b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col mb-4">
+            <div class="card">
+                <img src="img/foodPanda.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Food Panda</h5>
+                    <p class="card-text">Foodpanda is a mobile food delivery marketplace
+                        Delivery Hero SE and operates in about 50.It provides
+                        information, menus and user-reviews of restaurants as well as food delivery options from partner
+                        restaurants in select cities. <b>ORDER YOUR FOOD <a href="https://www.foodpanda.com/"> HERE</a>
+                        </b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col mb-4">
+            <div class="card">
+                <img src="img/swiggy.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Swiggy</h5>
+                    <p class="card-text">Order food online from restaurants and get it delivered.Swiggy is India's
+                        largest and highest-valued online food ordering and delivery platform founded in 2014.It is
+                        operated by Bundl Technologies. <b>ORDER YOUR FOOD <a
+                                href="https://www.swiggy.com/">HERE</a></b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col mb-4">
+            <div class="card">
+                <img src="img/u.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Uber Eats</h5>
+                    <p class="card-text">Find the best restaurants. Get contactless delivery for restaurant
+                        takeout, groceries, and more! Order food online or in the Uber Eats appUber Eats is an American
+                        online food ordering and delivery platform launched by Uber in 2014.<b>ORDER YOUR FOOD <a
+                                href="https://www.ubereats.com/">HERE</a></b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- steps section -->
+<h2 style="text-align: center;"> Want to know more? <img src="img/idea.gif" style="height: 122px;"></h2>
+<div class="step">
+ <p><img src="img/step1.gif" style="height: 80px;">Choose your favourite app among the four.</p><br>
+<p><img src="img/step2.gif" style="height: 80px;">Click the given link.</p><br>
+  <p><img src="img/step3.gif" style="height: 80px;">Now choose the you want to order.</p><br>
+ <p><img src="img/step4.gif" style="height: 80px;">Now confiem your order.</p><br>
+ <p> <img src="img/step5.gif" style="height: 80px;"> Enjoy your Meal. <img src="img/step6.gif" style="height: 122px;"> </p>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="bg-light text-center text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <p>
+            ORDER YOUR FOOD ONLINE AND ENJOY THE  MEAL. <br>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+          </p>
+        </div>
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Impo. Links</h5>
+  
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://www.zomato.com/ncr" class="text-dark">ZOMATO</a>
+            </li>
+            <li>
+              <a href="https://www.swiggy.com/" class="text-dark">SWIGGY</a>
+            </li>
+            <li>
+              <a href="https://www.foodpanda.com/" class="text-dark">FOOD PANDA</a>
+            </li>
+            <li>
+              <a href="https://www.ubereats.com/" class="text-dark">UBER EATS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2021 Copyright
+    </div>
+  </footer>
+ 
+
+
+
+<script class="app.js"></script>
+
+
+</body>
+</html>
